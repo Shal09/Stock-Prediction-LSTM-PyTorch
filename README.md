@@ -8,12 +8,12 @@ This project implements a Long Short-Term Memory (LSTM) neural network using PyT
 
 **Requirements**
 
-Python 3.7+
-PyTorch
-pandas
-numpy
-matplotlib
-scikit-learn
+Python 3.7+,
+PyTorch,
+pandas,
+numpy,
+matplotlib,
+scikit-learn,
 
 
 
