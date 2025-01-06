@@ -15,49 +15,50 @@ numpy,
 matplotlib,
 scikit-learn,
 
-Steps for MSFT Stock Price Prediction using LSTM
+****Steps for MSFT Stock Price Prediction using LSTM
+****
 
-**Data Collection**
+**1. Data Collection**
 
 Import libraries and set up Tiingo API.
 Download MSFT stock data and save it as a CSV file.
 
-**Data Preprocessing**
+**2. Data Preprocessing**
 
 Clean data: Remove irrelevant columns.
 Convert string prices to float and rename columns.
 
-**Feature Engineering**
-
+**3. Feature Engineering**
+   
 Create date index and lagged features 
 Drop NaN values and split into features (X) and target (y).
 
-**Data Scaling**
+**4. Data Scaling**
 
 Scale features and target to range (-1, 1) using MinMaxScaler.
 Save scalers for inverse transformation.
 
-**Data Splitting**
+**5. Data Splitting**
 
 Split data into train and test
 Reshape data for LSTM and convert to PyTorch tensors.
 
-**Model Creation**
+**6. Model Creation**
 
 Define and initialize LSTM.
 Set up loss function and optimizer.
 
-**Training Loop**
+**7. Training Loop**
 
 Train model using 
 Save the best model.
 
-**Prediction**
+**8. Prediction**
 
 predict the next 2 days.
 Inverse transform predictions back to original price scale.
 
-**Visualization**
+**9. Visualization**
 Plot actual vs predicted values
 Plot final predictions visualization step
 
