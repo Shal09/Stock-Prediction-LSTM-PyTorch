@@ -13,10 +13,9 @@ PyTorch,
 pandas,
 numpy,
 matplotlib,
-scikit-learn,
+scikit-learn
 
-****Steps for MSFT Stock Price Prediction using LSTM
-****
+Steps for MSFT Stock Price Prediction using LSTM
 
 **1. Data Collection**
 
@@ -59,6 +58,7 @@ predict the next 2 days.
 Inverse transform predictions back to original price scale.
 
 **9. Visualization**
+
 Plot actual vs predicted values
 Plot final predictions visualization step
 
