@@ -15,8 +15,8 @@ numpy,
 matplotlib,
 scikit-learn
 
-**Steps for MSFT Stock Price Prediction using LSTM
-**
+Steps for MSFT Stock Price Prediction using LSTM
+
 **1. Data Collection**
 
 Import libraries and set up Tiingo API.
