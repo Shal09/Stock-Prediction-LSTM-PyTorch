@@ -75,3 +75,6 @@ Plot final predictions visualization step
 
 After training, the LSTM model will generate predictions for future stock prices. 
 
+<img width="470" alt="image" src="https://github.com/user-attachments/assets/cbd1159c-5d37-4565-9a8d-06db9644c1d3" />
+
+
